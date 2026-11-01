@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-blood-sdldl-small-dense-atherogenic-particles-skill",
+  "version": "1.0.0",
+  "description": "Small dense LDL (sdLDL-C) and LDL particle number (LDL-P) vs ApoB atherogenic particle discordance auditor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_sdldl_atherogenic_discordance",
+      "description": "Small dense LDL (sdLDL-C) and LDL particle number (LDL-P) vs ApoB atherogenic particle discordance auditor.",
+      "sample_input": {
+        "sdldl_c_mg_dl": 38.0,
+        "standard_ldl_c_mg_dl": 95.0,
+        "apob_mg_dl": 98.0,
+        "triglycerides_mg_dl": 185
+      }
+    }
+  ]
+}
